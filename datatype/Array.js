@@ -49,9 +49,56 @@ let datas8 = ['jamilu','sani','musa','atiku']
 n2 = datas8.slice(1,3)
 console.log(n2)// --> ['sani','musa']
 
+// splice method --> to splice the array the first argument is the sarting from one stoping at position three
+let datas9 = ['jamilu','sani','musa','atiku']
+n3= datas9.splice(1,3)
+console.log(n3)// --> ['sani','musa','atiku']
 
+// task 
+let myarray= [
+    {
+         
+        title:'speaking JavaScript',
+       
+        author:'Axel Rouschmayer',
+        
+        pages:140
+    
+    },
+    {
+         
+        title:'programing javascript applicaion',
+       
+        author:'Eric Elliot',
+        
+        pages:254
+    
+    },
+    {
+         
+        title:'Understanding ECMAScript ',
+       
+        author:'Nicholas c.Zakas',
+        
+        pages:352
+    
+    }
 
+]
+myarray[3]={
+         
+        title:'Learning JavaScript Design Patterns',
+       
+        author:'Addy Osmanir',
+        
+        pages:254
+    
+    }
+    
+    console.log(myarray[2].title)
 
+//summary 
+// The Number, BigInt, or Boolean types are not by chance called primitive.
 
 
 
