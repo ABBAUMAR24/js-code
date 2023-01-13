@@ -90,3 +90,7 @@ console.log(myarray[3].title);
 
 //summary
 // The Number, BigInt, or Boolean types are not by chance called primitive.
+
+let myowndata1 = "hello i am his first data ";
+console.log(myowndata1.slice(0, 4));
+console.log(myowndata1.split(" "));
