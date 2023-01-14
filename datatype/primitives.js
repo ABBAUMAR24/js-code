@@ -21,3 +21,19 @@ console.log(`${data1} : ${typeof data1}`);
 console.log(`${data2} : ${typeof data2}`);
 console.log(`${data3} : ${typeof data3}`);
 console.log(`${data4} : ${typeof data4}`);
+
+// Carry out a chain of conversions: create a Boolean from a BigInt created from a
+// Number that was created from a String. Start with the value "1234". Is it possible?
+
+let newdata1 = BigInt(data3);
+let newdata2 = Boolean(data4);
+let newdata3 = Number(data1);
+console.log(typeof newdata1);
+console.log(typeof newdata2);
+console.log(typeof newdata3);
+
+// Try to modify the line
+// const str1 = 42 + "1"; to get the result 43 (without removing the quotes around 1)
+str = Number("1");
+str1 = 42 + str;
+console.log(str1);
