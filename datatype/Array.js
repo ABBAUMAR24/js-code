@@ -13,7 +13,7 @@ console.log(datas.indexOf("atiku")); // --> 3
 
 // lastindexof method --> to find the last index of the element
 let datas2 = ["jamilu", "sani", "musa", "atiku"];
-console.log(datas.lastIndexOf("sani")); // --> 1
+console.log(datas.lastIndexOf("musa")); // --> 1
 console.log(datas.lastIndexOf("musa")); // --> 2
 console.log(datas.lastIndexOf("atiku")); // --> 3
 
