@@ -55,3 +55,14 @@ console.log('${n2} : ${typeof n2}'); // -> -123 : number
 console.log('${n3} : ${typeof n3}'); // -> 123 : number
 console.log('${n4} : ${typeof n4}'); //
 
+// calculating shipping rate 
+let price = prompt('Enter the price you wish to pay please:');
+let shippingfee;
+let total;
+if (price < 100){
+    shippingfee = 0
+} else{
+    shippingfee = 20
+    let total = price + shippingfee
+} console.log(`your price is : ${price} and your shipping fee is : ${shippingfee} and your total is : ${total}`)
+
