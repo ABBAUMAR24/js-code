@@ -32,3 +32,18 @@ for (let i = 0; i < data.length; i++){
 for (let i of data){
     console.log(i)
 }
+// loop and array
+let names = []
+let isover = false
+ while (!isover){
+     let name = prompt('Enter a random number ,press cancle to see ur rslt')
+     if (name != null){
+         names.push(name)
+     }else {
+         isover = true
+     }
+     
+ }
+ for (i = 0; i < names.length; i++){
+     console.log(names[i])
+ }
