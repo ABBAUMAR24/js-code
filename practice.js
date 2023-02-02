@@ -65,3 +65,34 @@ for (let city of cities) {
         console.log(`${city.name} (${city.population})`);
     }
 }
+
+// 
+let gate = prompt('enter a letter:');
+late win = false;
+
+switch (gate){
+     case 'a':
+         alert ('A is not an Answer');
+    case 'b':
+        alert ('B is not an Answer');
+    case 'c':
+        alert ('C is the answer');
+        win = true;
+    default:
+        alert ('u win nothing' + String (gate));
+         
+ }
+ 
+ if (win){
+     alert (`you win ${gate} is the right answer thanks`);
+ }
+
+//  const circle = {
+//     radios : 1,
+//     direction : up, 
+//     location {
+//         n : 2,
+//     }
+
+//  }
+ 
