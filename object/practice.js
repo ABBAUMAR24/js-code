@@ -68,7 +68,7 @@ for (let city of cities) {
 
 // 
 let gate = prompt('enter a letter:');
-late win = false;
+let win = false;
 
 switch (gate){
      case 'a':
@@ -95,4 +95,6 @@ switch (gate){
 //     }
 
 //  }
+
+
  

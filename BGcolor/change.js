@@ -10,7 +10,7 @@
 //     body.style.backgroundColor = mycolor[colorIndex]
 // }
 
-
+// change bg color with js 
 
 const button = document.querySelector('button')
 const body = document.querySelector('body')
@@ -39,14 +39,25 @@ const data = [
 const data1 = data.filter(mydata => mydata.age >= 23)
 console.log(data1)
 
-// map 
 
+// map 
+// sqrt
 const OnlyNames = data.map(sunaye => Math.sqrt(sunaye.age))
 console.log(OnlyNames)
+// map
+// addition
+const OnlyName = data.map(sunaye => sunaye.age + 22)
+console.log(OnlyName)
+
+function getdata() {
+  return document.getElementById('ii').innerText
+} alert(getdata())
 
 
 
 
+const dats = data.map(all => all.names)
+button.addEventListener('click' , dats)
 
 
 
