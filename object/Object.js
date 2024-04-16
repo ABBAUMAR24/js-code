@@ -26,7 +26,7 @@ let ticket = {
     console.log(ticket.price)
     
 let person = {};
-person.firstname = 'jamilu';
+person.firstname = 'jamil';
 person.lastname = 'dan-tanimu';
 console.log(person.firstname)
 console.log(person.lastname)
